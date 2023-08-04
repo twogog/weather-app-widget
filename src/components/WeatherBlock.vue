@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
+import "dotenv/config";
 import type { City } from "@/types";
 import WeatherSettingsCity from "./WeatherSettingsCity.vue";
 import WeatherCity from "./WeatherCity.vue";
@@ -8,7 +9,7 @@ import { cityFactory } from "@/helpers";
 import TransitionElement from "./TransitionElement.vue";
 import SvgLoader from "./SvgLoader.vue";
 
-const TOKEN = process.env.TOKEN;
+const TOKEN = import.meta.env.TOKEN;
 
 const citiesStorage = (function () {
   const cities = localStorage.getItem("cities");
