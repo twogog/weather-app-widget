@@ -7,7 +7,7 @@ import WeatherPopup from "./WeatherPopup.ce.vue";
 import { cityFactory } from "@/helpers";
 import TransitionElement from "./TransitionElement.ce.vue";
 
-const TOKEN = "bf749324178b58d9b8cf7d36026c553a";
+const TOKEN = import.meta.env.VITE_TOKEN;
 
 const citiesStorage = (function () {
   const cities = localStorage.getItem("cities");
