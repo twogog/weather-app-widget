@@ -8,7 +8,7 @@ import { cityFactory } from "@/helpers";
 import TransitionElement from "./TransitionElement.vue";
 import SvgLoader from "./SvgLoader.vue";
 
-const TOKEN = "bf749324178b58d9b8cf7d36026c553a";
+const TOKEN = process.env.TOKEN;
 
 const citiesStorage = (function () {
   const cities = localStorage.getItem("cities");
