@@ -34,5 +34,3 @@ function handleDialog() {
     </form>
   </dialog>
 </template>
-
-<style scoped></style>

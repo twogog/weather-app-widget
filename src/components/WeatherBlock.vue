@@ -141,11 +141,6 @@ function swapCities(second: number) {
   max-width: 200px;
   min-height: 40px;
   border-radius: 5px;
-  & * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: sans-serif;
-  }
 }
 .settings {
   position: absolute;
