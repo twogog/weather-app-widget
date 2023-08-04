@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import "dotenv/config";
 import type { City } from "@/types";
 import WeatherSettingsCity from "./WeatherSettingsCity.vue";
 import WeatherCity from "./WeatherCity.vue";
