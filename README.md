@@ -1,17 +1,23 @@
-## Project Setup
+# Weather widget:
 
-```sh
-npm install
-```
+It's a test project:)
 
-### Compile and Hot-Reload for Development
+## Purpose
 
-```sh
-npm run dev
-```
+This is a test task in which it was necessary to implement the weather widget. The widget itself can be viewed in the widget branch.
 
-### Type-Check, Compile and Minify for Production
+## Build
 
-```sh
-npm run build
-```
+Check on Vercel https://weather-app-widget.vercel.app/
+
+## Stack
+- Vue (vite)
+- TypeScript
+- Jest
+
+## Available Scripts
+- npm run dev
+- npm run build
+- npm run preview
+- npm run test
+- npm run type-check
